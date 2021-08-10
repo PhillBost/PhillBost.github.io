@@ -1,0 +1,129 @@
+html,
+
+
+body{
+    background: linear-gradient(-45deg, #473a5d, #575b94, #494169, #434d6e, #3d4069);
+    background-size: 200% 200%;
+    animation: gradient 45s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.content-wrapper{
+    position:absolute;
+    display: grid;
+    height: 300px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+
+
+    /*this centers the div*/ 
+    top:50%;
+    left:50%;
+    margin-top: -200px;
+    margin-left: -500px;
+}
+
+.greeting-wrapper{
+    opacity: 0;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    display: flex;
+    justify-content: center;
+}
+
+.name-wrapper{
+    opacity: 0;
+    animation: fadeIn ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.subtitle-wrapper{
+    opacity: 0;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+
+.nav-wrapper{
+    opacity: 0;
+    animation: fadeIn ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+
+    display: flex;
+    margin-top: -100px;
+    height: 100px;
+    justify-content:center;
+    align-items:center;
+}
+
+.nav-link-wrapper{
+    height:auto;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-link-wrapper:hover{
+    text-decoration: underline;
+    text-decoration-color: #e4e4e4;
+    text-decoration-thickness: 2px;
+}
+
+.nav-separator{
+    font-size: 350%;
+}
+
+
+h1 {
+    font-family: LemonMilk;
+    font-weight: 75;
+    font-size: 370%;
+    color: #e4e4e4;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    
+}
+
+p{
+    font-family: LemonMilk;
+    font-weight: 75;
+    font-size: 120%;
+    color: #e4e4e4;
+    text-decoration-thickness: 3px;
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src:url(fonts/LemonMilk.otf);
+    font-style: normal;
+    font-weight: 75;
+}
