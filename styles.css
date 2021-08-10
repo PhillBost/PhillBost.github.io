@@ -104,6 +104,7 @@ html,
 
 .portfolio-img-background {
     height: 350px;
+    
     width: 100%;
     transition: 0.3s;
     filter: brightness(0.5);
