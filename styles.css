@@ -114,7 +114,7 @@ html,
 }
 
 .portfolio-item-wrapper {
-    font-size: 110%;
+    font-size: 1.2vw;
     position: relative;
     color: rgba(255, 255, 255, 0);
     transition: 0.3s;
