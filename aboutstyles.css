@@ -1,0 +1,58 @@
+html,
+
+ body {
+    width: 100%;
+    height:100%;
+  }
+  
+  body {
+      background: linear-gradient(-45deg, #473a5d, #7c82cf, #494169, #434d6e);
+      background-size: 200% 200%;
+  }
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+  
+  
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/*
+* Nav Styles
+*/
+.nav-wrapper {
+    /* flex allows a div to not stack it's elements and instead display them next to eachother  */
+    display: flex; 
+    border-bottom: 4px dotted;
+
+}
+
+.nav-link-wrapper {  
+    padding-left: 20px; /* adds padding on the outside of the content */
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+
+    align-items: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+.nav-link-wrapper:hover {
+    background-color: #8582828e;
+    
+    cursor: pointer;
+}
