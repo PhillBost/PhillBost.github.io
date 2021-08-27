@@ -48,11 +48,50 @@ html,
 
     align-items: center;
     color: #000000;
+    font-family: LemonMilk;
+    font-weight: 75;
+    font-size: 120%;
+    color: #e4e4e4;
     text-decoration: none;
 }
 
 .nav-link-wrapper:hover {
     background-color: #8582828e;
-    
     cursor: pointer;
+}
+
+.description {
+    font-family: ReallyFree-ALwl7;
+    font-size: 200%;
+    
+    margin-top: -30px;
+    margin-bottom: -20px;
+}
+
+.chart {
+    height: 50%;
+    width: 50%;
+    object-fit:scale-down;
+}
+
+h1{
+    font-family: LemonMilk;
+    font-weight: 75;
+    font-size: 250%;
+    color: #e4e4e4;
+    text-decoration-thickness: 3px;
+    text-decoration:underline;
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: 'LemonMilk';
+    src:url(fonts/LemonMilk.otf);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ReallyFree-ALwl7';
+    src:url(fonts/ReallyFree-ALwl7.ttf);
+    font-style: normal;
 }
