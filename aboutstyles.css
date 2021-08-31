@@ -60,10 +60,14 @@ html,
     cursor: pointer;
 }
 
+.textblock {
+    border-bottom: 2px dotted;
+}
+
 .description {
     font-family: ReallyFree-ALwl7;
     font-size: 200%;
-    
+    color: white;
     margin-top: -30px;
     margin-bottom: -20px;
 }
