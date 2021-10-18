@@ -2,93 +2,122 @@
 <html lang="en">
     
 
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>opening</title>
+    <link rel="stylesheet" href="titlestyles.css">
 </head>
 
 <body>
-    <div class ="container">
+    <div class="top-anchor" id="top-anchor" name="top-anchor"></div>
+
+    <div class="content-wrapper">
         <div class="nav-wrapper">
-             <a href = "title.html" class = "nav-link-wrapper">
-                <p>Home</p>
-             </a>
-             <a href = "index.html" class = "nav-link-wrapper">
-                <p>Projects</p>
+            <a href = "#top-anchor" class = "nav-link-wrapper">
+               <p>Home</p>
             </a>
-            <a href = "about.html" class = "nav-link-wrapper">
+            <a href = "#about-me-wrapper" class = "nav-link-wrapper">
                 <p>About Me</p>
             </a>
-        </div>
+            <a href = "#projects-wrapper" class = "nav-link-wrapper">
+               <p>Projects</p>
+           </a>
+       </div>
 
-        <div class="content-wrapper">
-            <div class="hover">
-                <p>Hover for more info...</p>
+        <div class="heading-wrapper">
+            <div class="greeting-wrapper">
+                <p>Hi! I'm...</p>
             </div>
-            <div class="portfolio-header-wrapper"> 
-                <h1>Robotics</h1>
-                <div class="portfolio-items-wrapper">
-
-                    <a href = https://github.com/Robostangs/InfiniteRecharge2020 class="portfolio-item-wrapper">
-                        <div class="portfolio-img-background" style="background-image:url(images/roboclimb.jpg)"></div>
-                            <div class="img-text-wrapper">
-                                <div class="subtitle">
-                                    "Pharaoh" is a tele-operated as well as autonomously controlled robot programmed in Java. 
-                                    The robot competed in the 2020 FIRST robotics competition in which it ranked 22 in the state of Michigan
-                                    before the season was canceled due to Covid-19. The robot's design includes an automated intake system
-                                    using various sensors, as well as PID controlled shooting. My, as well as my fellow team members' contributions 
-                                    to the programming of the robot can be viewed at this github link.
-                                </div>
-                            </div>
-                    </a>
-
-                    <a href = https://github.com/SaketKulkarni121/Swerve-2021/tree/Combined class="portfolio-item-wrapper">
-                        <div class="portfolio-img-background" style="background-image:url(images/swerve2021.jpg)"></div>
-                            <div class="img-text-wrapper">
-                                <div class="subtitle">
-                                    "Swerve-2021" is an updated version of the robot "Sidestep" which was built and
-                                    programmed in 2016. The robot utilizes a "swerve" drivetrain which features
-                                    four wheels whose headings and speeds are controlled independently using
-                                    various encoders (kind of like a motorized shopping cart). I contributed 
-                                    to the project during the off-season with other members of the 2020-21 software team.
-                                    The project proved as a fun and challenging way to gain a better understanding of
-                                    software engineering.
-                                </div>
-                            </div>
-                    </a>
-
-                </div>
+            <div class="name-wrapper">
+                <h1>Phillip Bernwanger</h1>
             </div>
-
-            <div class="portfolio-header-wrapper">
-                <h1>Misc</h1> 
-                    <div class="portfolio-items-wrapper">
-
-                        <a href = https://github.com/phillardb/Phills-Space-Game class="portfolio-item-wrapper">
-                            <div class="portfolio-img-background" style="background-image:url(images/cameraicon.jpg)"></div>
-                                <div class="img-text-wrapper">
-                                    <div class="subtitle">
-                                        One of my only Unity projects in C# on github is a few scripts that
-                                        allow the user to control a physics object in a 3D space with a 3D 
-                                        camera. I programmed the script intending to use it on future projects.
-                                        The template also includes camera collision, jumping, and sprinting.
-                                        The project was primarily to support clean camera movement using the mouse
-                                        that allows the player to zoom in and out. The design itself is very simple.
-                                        Feel free to reference for your own projects.
-                                    </div>
-                                </div>
-                        </a>
-       
-                    </div>
-                </div>
-
-
-
+            <div class="subtitle-wrapper">
+                <p>Amateur Developer</p>
+            </div>
         </div>
     </div>
 
+    <div class="about-me-wrapper" id="about-me-wrapper" name="about-me-wrapper">
+        <h1>About Me</h1>
+        <div class="about-me-description">
+            <div class="about-me-text">
+                <p>I'm currently an undecided freshmen university student
+                    with plans to study Computer Science or Cybersecurity.
+                    I've been learning programming for five years now. I've 
+                    applied programming to robotics, game design, simulation,
+                    app design, and web development. I am a former member of
+                    FIRST(For Inspiration and Recognition of Science and Technology) 
+                    robotics team #548, of which I worked on a variety of 
+                    machines and projects. 
+
+                    Below is a proficiency chart demonstrating where I believe
+                    my current skill levels belong. 1 star being just in-class 
+                    experience, 6 stars being complete mastery. 
+                </p>
+                <img src="images/codingchart.PNG" alt="Coding Chart">
+            </div>
+            <div class="senior-photo"> 
+                <img src="images/seniorphoto.jpg" alt="Senior Photo">
+            </div>
+        </div>
+    </div>
+
+    <div class="projects-wrapper" name="projects-wrapper" id="projects-wrapper">
+        <h1>Projects</h1>
+        
+        <div class="hover">
+            <p>These are some of the things I've worked on.
+            Hover for more info...</p>
+        </div>
+        <div class="portfolio-header-wrapper"> 
+            <div class="portfolio-items-wrapper">
+                <a href = https://github.com/Robostangs/InfiniteRecharge2020 class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/roboclimb.jpg)"></div>
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                                "Pharaoh" is a tele-operated as well as autonomously controlled robot programmed in Java. 
+                                The robot competed in the 2020 FIRST robotics competition in which it ranked 22 in the state of Michigan
+                                before the season was canceled due to Covid-19. The robot's design includes an automated intake system
+                                using various sensors, as well as PID controlled shooting. My, as well as my fellow team members' contributions 
+                                to the programming of the robot can be viewed at this github link.
+                            </div>
+                        </div>
+                </a>
+                <a href = https://github.com/SaketKulkarni121/Swerve-2021/tree/Combined class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/swerve2021.jpg)"></div>
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                                "Swerve-2021" is an updated version of the robot "Sidestep" which was built and
+                                programmed in 2016. The robot utilizes a "swerve" drivetrain which features
+                                four wheels whose headings and speeds are controlled independently using
+                                various encoders (kind of like a motorized shopping cart). I contributed 
+                                to the project during the off-season with other members of the 2020-21 software team.
+                                The project proved as a fun and challenging way to gain a better understanding of
+                                software engineering.
+                            </div>
+                        </div>
+                </a>
+                <a href = https://github.com/phillardb/Phills-Space-Game class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/cameraicon.jpg)"></div>
+                        <div class="img-text-wrapper">
+                            <div class="subtitle">
+                                This Unity C# project consists of a few scripts that
+                                allow the user to control a physics object in a 3D space with a 3D 
+                                camera. I programmed the script intending to use it on future projects.
+                                The template also includes camera collision, jumping, and sprinting.
+                                The project was primarily to support clean camera movement using the mouse
+                                that allows the player to zoom in and out. The design itself is very simple.
+                            </div>
+                        </div>
+                </a>
+
+            </div>
+
+    </div>
+   
+    
+    
+    
 </body>
+
 </html>
