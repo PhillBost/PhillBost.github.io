@@ -87,6 +87,12 @@ html,
     }
 }
 
+.hover {
+    font-size:90%;
+    font-style:italic;
+    margin-bottom: -40px;
+}
+
 /*
 * Portfolio Styles
 */
