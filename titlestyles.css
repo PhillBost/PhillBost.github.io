@@ -155,7 +155,7 @@ body{
 /* The typing effect */
 @keyframes typing {
 from { width: 0 }
-to { width: 27vw }
+to { width: 33vw }
 }
 /* The typewriter cursor effect */
 @keyframes blink-caret {
@@ -253,7 +253,7 @@ to { width: 27vw }
         width:100%;
         position: relative;
         text-align:center;
-        top: 590px;
+        top: 600px;
     }
 
     .portfolio-header-wrapper {
@@ -265,6 +265,7 @@ to { width: 27vw }
      .portfolio-items-wrapper {
          display: grid;
          grid-template-columns: 1fr 1fr 1fr; /*places each portfolio item in their own column (3 columns)*/
+         padding-bottom: 50px;
      }
      
      .portfolio-img-background {
@@ -301,6 +302,94 @@ to { width: 27vw }
          align-items: center; /* top to bottom */
          height: 100%;
          text-align: center;
-     
      }
+
+/*
+SURVEY RESULTS
+*/
+     .third-section{
+        background-color:rgb(255, 255, 255);
+        top: -200px;
+     }
+
+     .third-section h1{
+        color: #2a1947;
+     }
+
+     .personal-study-results-wrapper{
+         display: flex;
+     }
+
+     .study-content-wrapper{
+         width: 50%;
+     }
+
+     .study-content-wrapper p{
+         padding-left: 20px;
+     }
+
+     .mbti-header{
+         display:flex;
+         font-size: 2.5vw;
+     }
+
+     .mbti-image{
+        height: 25vw;
+        width: 50%;
+        background-size: 100%;
+        background-position:center;
+        background-repeat: no-repeat;
+     }
+
+     .sii-header{
+         display:flex;
+         font-size: 2.5vw;
+     }
+     .sii-image{
+         height: 25vw;
+         width: 50%;
+         background-size: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+     }
+
+     .fourth-section h2{
+         font-size:2vw;
+         font-style: italic;
+     }
+
+     .mission-statement-2 p{
+         font-size: 1.6vw;
+     }
+
+     .elevator-pitch p{
+        font-size: 1.6vw;
+     }
+
+     .fourth-section h3{
+         color:rgb(255, 255, 255);
+         font-size: 1.5vw;
+         text-decoration: underline;
+     }
+
+
+
+
+     .fifth-section{
+         background-color:white
+     }
+     .fifth-section h1{
+         color:#2a1947;
+     }
+     .exploration-hover{
+         color:#2a1947;
+     }
+     .exploration-portfolio-items-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /*places each portfolio item in their own column (2 columns)*/
+        padding-bottom:200px;
+    }
+
+
+    
   
