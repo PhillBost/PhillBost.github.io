@@ -148,8 +148,12 @@ html,
 
 }
 
+.contact-me-wrapper {
+    display: flex;
+}
 
-h1 {
+
+h1{
     font-family: LemonMilk;
     font-weight: 75;
     font-size: 370%;
@@ -158,6 +162,7 @@ h1 {
     text-decoration-thickness: 3px;
     
 }
+
 
 p{
     font-family: LemonMilk;

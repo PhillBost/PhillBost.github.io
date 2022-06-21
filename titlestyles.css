@@ -304,91 +304,37 @@ to { width: 33vw }
          text-align: center;
      }
 
-/*
-SURVEY RESULTS
-*/
-     .third-section{
-        background-color:rgb(255, 255, 255);
-        top: -200px;
-     }
-
-     .third-section h1{
-        color: #2a1947;
-     }
-
-     .personal-study-results-wrapper{
-         display: flex;
-     }
-
-     .study-content-wrapper{
-         width: 50%;
-     }
-
-     .study-content-wrapper p{
-         padding-left: 20px;
-     }
-
-     .mbti-header{
-         display:flex;
-         font-size: 2.5vw;
-     }
-
-     .mbti-image{
-        height: 25vw;
-        width: 50%;
-        background-size: 100%;
-        background-position:center;
-        background-repeat: no-repeat;
-     }
-
-     .sii-header{
-         display:flex;
-         font-size: 2.5vw;
-     }
-     .sii-image{
-         height: 25vw;
-         width: 50%;
-         background-size: 100%;
-         background-position: center;
-         background-repeat: no-repeat;
-     }
-
-     .fourth-section h2{
-         font-size:2vw;
-         font-style: italic;
-     }
-
-     .mission-statement-2 p{
-         font-size: 1.6vw;
-     }
-
-     .elevator-pitch p{
-        font-size: 1.6vw;
-     }
-
-     .fourth-section h3{
+     .contact-me-wrapper {
          color:rgb(255, 255, 255);
-         font-size: 1.5vw;
-         text-decoration: underline;
      }
 
 
+     .contact-me-link-wrapper {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
 
+     .contact-me-label {
+         padding-right: 1vw;
+     }
 
-     .fifth-section{
-         background-color:white
+     .contact-me-icons{
+        display: flex;
+        justify-content:center;
      }
-     .fifth-section h1{
-         color:#2a1947;
+
+     .icon{
+        transition: 0.3s;
+        height:40px;
+        width:40px;
      }
-     .exploration-hover{
-         color:#2a1947;
+     .icon:hover{
+        border-bottom: 1px solid white;
      }
-     .exploration-portfolio-items-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr; /*places each portfolio item in their own column (2 columns)*/
-        padding-bottom:200px;
-    }
+     
+     
+
 
 
     
