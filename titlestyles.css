@@ -192,6 +192,7 @@ to { width: 33vw }
 */
 
     .about-me-wrapper h1{
+        white-space: pre-line;
         font-family: code;
         font-weight: 75;
         font-size: 3vw;
