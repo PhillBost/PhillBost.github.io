@@ -69,6 +69,25 @@ body{
     color: #e4e4e4;
 }
 
+.icon{
+    
+    transition: 0.3s;
+    height:40px;
+    width:40px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+ }
+
+ .icon img{
+    height: auto;
+    width: 70%;
+ }
+
+ .icon:hover{
+    border-bottom: 1px solid white;
+ }
+
 .nav-link-wrapper:hover {
     background-color: #8582828e;
     cursor: pointer;
@@ -79,8 +98,8 @@ body{
     GREETING
 */
 .greeting-wrapper{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-content: left;
 }
 
 .subtitle-wrapper{
@@ -91,7 +110,7 @@ body{
 
 .heading-wrapper h1 {
     font-weight: 75;
-    font-size: 5vw;
+    font-size: 7vw;
     color: #e4e4e4;
     text-decoration: underline;
     text-decoration-thickness: 3px;
@@ -99,7 +118,7 @@ body{
 }
 
 .heading-wrapper p{
-    font-family: code;
+    font-family: regular;
     font-weight: 75;
     font-size: 2.4vw;
     color: #e4e4e4;
@@ -113,7 +132,15 @@ body{
     font-weight: 75;
 }
 
+@font-face {
+    font-family: 'regular';
+    src:url(fonts/coolvetica-rg.otf);
+    font-style: normal;
+    font-weight: 50;
+}
+
 .subtitle-wrapper p {
+    font-family: code;
     opacity: 0;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid transparent; /* The typwriter cursor */
@@ -139,6 +166,7 @@ body{
   }
   
   .name-wrapper h1{
+    font-family: regular;
     opacity: 0;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid transparent; /* The typwriter cursor */
@@ -165,7 +193,7 @@ to { width: 33vw }
 
 @keyframes typing-greet {
     from { width: 0 }
-    to { width: 15vw }
+    to { width: 10vw }
 }
 @keyframes blink-caret-greet {
     from, to { border-color: transparent }
@@ -191,18 +219,27 @@ to { width: 33vw }
     ABOUT ME
 */
 
+    .down-arrow-wrapper img{
+        height:2vw;
+        max-width: 20%;
+        top: 5vw;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+    }
+
     .about-me-wrapper h1{
         white-space: pre-line;
         font-family: code;
         font-weight: 75;
         font-size: 3vw;
-        color: #2a1947;
+        color: #ffffff;
         text-decoration:underline;
         text-decoration-thickness: 3px;
     }
 
     .about-me-wrapper{
-        background-color:rgb(255, 255, 255);
+        padding-top: 15vw;
         display: grid;
         width:100%;
         position: relative;
@@ -211,7 +248,11 @@ to { width: 33vw }
     }
 
     .about-me-description{
+        color: #ffffff;
+        font-size: large;
+        font-family: regular;
         display: flex;
+        top:5px;
     }
 
     .about-me-text{
@@ -221,7 +262,9 @@ to { width: 33vw }
 
     .about-me-text img{
         height:auto;
-        max-width:100%;
+        max-width: 60vw;
+        position: relative;
+        bottom: 60px;
     }
 
     .senior-photo{
@@ -325,14 +368,11 @@ to { width: 33vw }
         justify-content:center;
      }
 
-     .icon{
-        transition: 0.3s;
-        height:40px;
-        width:40px;
+     .designed-by{
+        color:#adababaa
      }
-     .icon:hover{
-        border-bottom: 1px solid white;
-     }
+
+     
      
      
 
