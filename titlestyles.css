@@ -57,7 +57,7 @@ body{
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    transition: 0.3s;
+    
 
     align-items: center;
     color: #000000;
@@ -79,19 +79,15 @@ body{
     bottom: 5px;
  }
 
- .icon img{
+.icon img{
     height: auto;
     width: 70%;
  }
 
- .icon:hover{
+.icon:hover{
     border-bottom: 1px solid white;
  }
 
-.nav-link-wrapper:hover {
-    background-color: #8582828e;
-    cursor: pointer;
-}
 
 
 /*
