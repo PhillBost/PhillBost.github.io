@@ -57,7 +57,7 @@ body{
     padding-right: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    transition: 0.3s;
+    
 
     align-items: center;
     color: #000000;
@@ -67,6 +67,7 @@ body{
     font-weight: 75;
     font-size: 15px;
     color: #e4e4e4;
+    
 }
 
 .icon{
@@ -79,19 +80,15 @@ body{
     bottom: 5px;
  }
 
- .icon img{
+.icon img{
     height: auto;
     width: 70%;
  }
 
- .icon:hover{
+.icon:hover{
     border-bottom: 1px solid white;
  }
 
-.nav-link-wrapper:hover {
-    background-color: #8582828e;
-    cursor: pointer;
-}
 
 
 /*
@@ -315,26 +312,25 @@ to { width: 33vw }
      .portfolio-img-background {
          height: 25vw;
          width: 100%;
-         transition: 0.3s;
-         filter: brightness(0.5);
          background-size: cover;
          background-position: center;
          background-repeat: no-repeat;
+         transition: 0.3s;
+     }
+     .portfolio-img-reveal {
+         filter: brightness(0.5);
      }
      
      .portfolio-item-wrapper {
          font-size: 1.2vw;
          position: relative;
          color: rgba(255, 255, 255, 0);
-         transition: 0.3s;
-         filter: brightness(2);
+         transition: color 0.3s;    
      }
-     
-     .portfolio-item-wrapper:hover {
-         color: rgb(255, 255, 255);
-         filter: brightness(1);
+     .portfolio-text-reveal {
+         color: rgba(255, 255, 255, 1);
      }
-     
+
      
      .img-text-wrapper {
          position: absolute;
