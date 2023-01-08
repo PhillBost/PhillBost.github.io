@@ -1,10 +1,15 @@
-//portfolio image animations
-const portfolioItems = document.getElementsByClassName("portfolio-items-wrapper");
-const portfolioImage = document.getElementsByClassName("portfolio-img-background");
-portfolioItems[0].addEventListener('mouseenter', function(e) {
-    if (e.target.getElementsByClassName("portfolio-item-wrapper")) {
-        e.target.classList.toggle("hover");
-        
-    }
-})
+//elements
+const portfolioItems = document.getElementsByClassName("portfolio-item-wrapper");
+
+
+//portfolio interaction animations
+var projectHover = function() {
+    this.classList.toggle("portfolio-text-reveal");
+    this.querySelector(".portfolio-img-background").classList.toggle("portfolio-img-reveal");
+};
+for (var i = 0; i < portfolioItems.length; i++) {
+    portfolioItems[i].addEventListener('mouseenter', projectHover);
+    portfolioItems[i].addEventListener('mouseleave', projectHover)
+}
+
 
