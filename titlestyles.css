@@ -6,7 +6,7 @@ html{
 }
 body{
     width: 100%;
-    height: 1800px;
+    height: auto;
     background: linear-gradient(0deg, #736380, #494169, #3e265e,#351f49, #2a1947);
     background-size: 200% 100%;
     background-repeat: no-repeat;
@@ -232,13 +232,15 @@ to { width: 33vw }
         font-size: 3vw;
         color: #ffffff;
         text-decoration:underline;
-        text-decoration-thickness: 3px;
+        
     }
 
     .about-me-wrapper{
         padding-top: 15vw;
         display: grid;
         width:100%;
+        min-height: 100px;
+        overflow: hidden;
         position: relative;
         text-align:center;
         top: 570px;
@@ -249,12 +251,14 @@ to { width: 33vw }
         font-size: large;
         font-family: regular;
         display: flex;
-        top:5px;
+        
     }
 
     .about-me-text{
+        height:auto;
         width:50%;
         padding-right: 0px;
+        display: inline-block;
     }
 
     .about-me-text img{
@@ -271,6 +275,20 @@ to { width: 33vw }
         height:auto;
         max-width:60%;
         padding-left: 0px;
+    }
+
+    .coding-graphic{
+        height: 70%;
+        width: 100%;
+    }
+    .language-bubble{
+        border-radius: 50%;
+        height: 5vw;
+        width: 5vw;
+        display: inline-block;
+        background-color: #ffffff;
+        color: black;
+        font-size: 80%
     }
 
 /*
@@ -295,6 +313,7 @@ to { width: 33vw }
         position: relative;
         text-align:center;
         top: 600px;
+        padding-top: 100px;
     }
 
     .portfolio-header-wrapper {
@@ -319,6 +338,7 @@ to { width: 33vw }
      }
      .portfolio-img-reveal {
          filter: brightness(0.5);
+         width: 110%;
      }
      
      .portfolio-item-wrapper {
