@@ -319,6 +319,7 @@ to { width: 33vw }
      }
      .portfolio-img-reveal {
          filter: brightness(0.5);
+         width: 110%;
      }
      
      .portfolio-item-wrapper {
