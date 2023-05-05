@@ -277,19 +277,37 @@ to { width: 33vw }
         padding-left: 0px;
     }
 
-    .coding-graphic{
-        height: 70%;
+    .coding-graphic{   
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        height:23vw;
         width: 100%;
+        
     }
     .language-bubble{
+        display: grid;
+        position: relative;
         border-radius: 50%;
-        height: 5vw;
-        width: 5vw;
-        display: inline-block;
-        background-color: #ffffff;
+        height: 10vw;
+        width: 10vw;
+        border-width: 3px;
+        border-style: solid;
+        background-color: #3e265e00;
         color: black;
-        font-size: 80%
+        font-size: 80%;
+        justify-content: center;
+        vertical-align: middle;
+
+
+        background-position: 50%;
+        background-size: 75%;
+        background-repeat:no-repeat;
     }
+    
+  
+
+    
 
 /*
     PROJECTS
